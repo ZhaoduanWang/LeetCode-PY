@@ -1,7 +1,6 @@
 class Solution(object):
     def removeDuplicates(self, nums):
-        max = nums[len(nums)-1]
-        prev = max
+        prev = nums[len(nums)-1]
 
         for i in range(len(nums)):
             num = nums.pop(0)
