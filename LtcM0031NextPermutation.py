@@ -7,7 +7,7 @@ class Solution(object):
             if (nums[k-1]<nums[k]):
                 break
         
-        print('k = {k}')
+        print(f'k = {k}')
         num = nums[k-1]
         nums[k-1] = nums[len(nums)-1]
         nums[len(nums)-1] = num
