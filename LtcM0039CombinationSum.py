@@ -3,7 +3,7 @@ class Solution(object):
         dp = []
         res = []
         self.combinationSumHelper(0, candidates, target, dp, res)
-        print(res)
+        #print(res)
         return res
 
     def combinationSumHelper(self, index, candidates, target, dp, res):
@@ -22,4 +22,4 @@ class Solution(object):
             
 sol = Solution()
 sol.combinationSum([2,3,6,7], 7)
-#sol.combinationSum([2,3,5], 8)
+sol.combinationSum([2,3,5], 8)
